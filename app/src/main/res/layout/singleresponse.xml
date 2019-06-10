@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/responselist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/responseState"
+                tools:text="Karim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="casual"
+                android:text="Accepted"
+                android:textAllCaps="true"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/responsetype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="*Playstation*"
+                    android:textColor="@color/hgl2"
+                    android:textSize="24sp"
+                    tools:text="010130934" />
+
+                <TextView
+                    android:id="@+id/responseroom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="monospace"
+                    android:text="Date :"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    tools:text="010130934" />
+
+                <TextView
+                    android:id="@+id/responsenumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="monospace"
+                    android:text="Date :"
+                    android:textColor="@color/hgl2"
+                    android:textSize="18sp"
+                    tools:text="010130934" />
+
+                <TextView
+                    android:id="@+id/responsegame"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="monospace"
+                    android:text="Time :"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    tools:text="Karim" />
+
+                <TextView
+                    android:id="@+id/responsedate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="monospace"
+                    android:text="Date :"
+                    android:textColor="@color/hgl2"
+                    android:textSize="18sp"
+                    tools:text="010130934" />
+
+                <TextView
+                    android:id="@+id/responsetime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="monospace"
+                    android:text="Time :"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    tools:text="Karim" />
+
+                <TextView
+                    android:id="@+id/responsenote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="monospace"
+                    android:text="Time :"
+                    android:textColor="@color/hgl2"
+                    android:textSize="18sp"
+                    tools:text="Karim" />
+
+                <TextView
+                    android:id="@+id/responee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="monospace"
+                    android:text="Time :"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    tools:text="Karim" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

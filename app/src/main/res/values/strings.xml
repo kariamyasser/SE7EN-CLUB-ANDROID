@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">7 club</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_home_admin">HomeAdmin</string>
+    <string name="title_activity_reset_password">ResetPassword</string>
+    <string name="title_activity_addfood">Addfood</string>
+    <string name="title_activity_order_food">OrderFood</string>
+    <string name="title_activity_add_food_order">AddFoodOrder</string>
+    <string name="title_activity_view_food_orders">ViewFoodOrders</string>
+    <string name="title_activity_add_new_game">AddNewGame</string>
+    <string name="title_activity_view_new_games">ViewNewGames</string>
+    <string name="title_activity_add_offer">AddOffer</string>
+    <string name="title_activity_view_offers">ViewOffers</string>
+    <string name="title_activity_maps">Se7en</string>
+    <string name="title_activity_add_review">AddReview</string>
+    <string name="title_activity_view_reviews">ViewReviews</string>
+    <string name="title_activity_add_new_reservation">AddNewReservation</string>
+    <string name="title_activity_view_request">ViewRequest</string>
+    <string name="title_activity_view_response">ViewResponse</string>
+    <string name="title_activity_view_reservations">ViewReservations</string>
+    <string name="title_activity_change_room_status">ChangeRoomStatus</string>
+    <string name="title_activity_view_rooms">ViewRooms</string>
+    <string name="title_activity_delete_food">DeleteFood</string>
+    <string name="title_activity_delete_offer">DeleteOffer</string>
+    <string name="title_activity_delete_game">DeleteGame</string>
+
+    <string-array name="rooms">
+        <item>Room 1</item>
+        <item>Room 2</item>
+    </string-array>
+    <string name="title_activity_stop_reservation">StopReservation</string>
+    <string name="title_activity_connect_us">ConnectUs</string>
+    <string name="title_activity_menu_category">MenuCategory</string>
+    <string name="title_activity_menu_category2">MenuCategory2</string>
+
+</resources>

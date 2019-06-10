@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/reviewlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+   app:cardBackgroundColor="#000000"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/reviewName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="TextView"
+                android:textAllCaps="true"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp"
+                tools:text="Karim" />
+
+            <TextView
+                android:id="@+id/reviewPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="TextView"
+                android:textColor="@color/hgl2"
+                android:textSize="24sp"
+                tools:text="010130934" />
+
+
+            <RatingBar
+
+                android:id="@+id/reviewStars"
+                style="@android:style/Widget.Holo.Light.RatingBar.Indicator"
+                android:layout_width="272dp"
+                android:layout_height="43dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:clickable="false"
+                android:numStars="5"
+                android:paddingLeft="100dp"
+                android:stepSize="1.0"
+                android:visibility="visible" />
+
+
+            <TextView
+                android:id="@+id/reviewComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="TextView"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                tools:text="Karim" />
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

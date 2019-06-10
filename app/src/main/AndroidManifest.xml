@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.passe.se7en">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--
+      <uses-permission android:name="android.permission.CALL_PHONE" />
+      <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    -->
+
+    <!--
+           The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+           Google Maps Android API v2, but you must specify either coarse or fine
+           location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcherx2"
+        android:label="@string/app_name"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcherx2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_sign_up"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Home"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_home"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeAdmin"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_home_admin"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResetPassword"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_reset_password"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Addfood"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_addfood"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OrderFood"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_order_food"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddFoodOrder"
+            android:label="@string/title_activity_add_food_order"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewFoodOrders"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_view_food_orders"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddNewGame"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_add_new_game"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewNewGames"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_view_new_games"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddOffer"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_add_offer"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewOffers"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_view_offers"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".AddReview"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_add_review"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewReviews"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_view_reviews"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddNewReservation"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_add_new_reservation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewRequest"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_view_request"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewResponse"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_view_response"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewReservations"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_view_reservations"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChangeRoomStatus"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_change_room_status"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewRooms"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_view_rooms"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DeleteFood"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_delete_food"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DeleteOffer"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_delete_offer"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DeleteGame"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_delete_game"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StopReservation"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_stop_reservation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ConnectUs"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_connect_us"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

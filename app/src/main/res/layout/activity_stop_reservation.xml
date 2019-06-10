@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.passe.se7en.StopReservation">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/black"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Stop Reservations" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_stop_reservation"
+        android:id="@+id/include25" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@android:color/darker_gray"
+        app:layout_anchor="@+id/include25"
+        app:layout_anchorGravity="bottom|left"
+        app:srcCompat="?android:attr/actionModeCloseDrawable" />
+
+</android.support.design.widget.CoordinatorLayout>
